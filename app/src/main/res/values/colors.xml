@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#2c4657</color>
+    <color name="colorPrimaryDark">#061d2b</color>
+    <color name="colorAccent">#b8ad44</color>
+    <color name="colorAppBackground">#b4c9d4</color>
     <color name="colorQuestionLayoutBackground">#eee</color>
     <color name="colorQuestion">#666</color>
     <color name="colorAnswers">#222</color>
-    <color name="colorInstructions">#222</color>
+    <color name="colorInstructions">#333</color>
 </resources>

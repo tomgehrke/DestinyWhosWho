@@ -33,4 +33,7 @@
     <string name="question_10">What is your Guardian\'s name?</string>
     <string name="question_10_hint">Enter name</string>
     <string name="submit_prompt">Submit your answers</string>
+    <string name="complete_quiz_request">A Guardian never leaves a task unfinished!</string>
+    <string name="quiz_score">You got %1$d out of a possible %2$d correct.</string>
+    <string name="perfect_score">PERFECTION, %1$s!\nYou have become Legend!</string>
 </resources>

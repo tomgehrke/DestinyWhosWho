@@ -21,25 +21,24 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void submitAnswers(View v) {
-        // reset counters in case answers are submitted multiple times
+        // Reset counters in case answers are submitted multiple times
         correctCount = 0;
         questionCount = 0;
 
         if (quizComplete()) {
             if (questionCount == correctCount) {
                 String guardianName = ((EditText) findViewById(R.id.answer10_edittext)).getText().toString().toUpperCase();
-                Toast.makeText(getBaseContext(), "PERFECTION, " + guardianName + "! You have become Legend!" , Toast.LENGTH_LONG).show();
+                Toast.makeText(getBaseContext(), getString(R.string.perfect_score, guardianName), Toast.LENGTH_LONG).show();
             } else {
-                Toast.makeText(getBaseContext(), "You got " + correctCount + " out of a possible " + questionCount + " correct." , Toast.LENGTH_LONG).show();
+                Toast.makeText(getBaseContext(), getString(R.string.quiz_score, correctCount, questionCount), Toast.LENGTH_LONG).show();
             }
         } else {
-            Toast.makeText(getBaseContext(), "A Guardian never leaves a task unfinished!", Toast.LENGTH_LONG).show();
+            Toast.makeText(getBaseContext(), getString(R.string.complete_quiz_request), Toast.LENGTH_LONG).show();
         }
     }
 
     private boolean quizComplete() {
         boolean isComplete = checkQuestion01();
-
         if (isComplete) {isComplete = checkQuestion02();}
         if (isComplete) {isComplete = checkQuestion03();}
         if (isComplete) {isComplete = checkQuestion04();}

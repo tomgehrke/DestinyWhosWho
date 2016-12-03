@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Destiny Quién es Quién</string>
+    <string name="instructions">Responda las siguientes preguntas para ver qué tan bien conoce algunos de los personajes principales de Destiny.  Ojos para arriba, Guardián!</string>
+    <string name="question_01">Quién es la reina de los Awoken?</string>
+    <string name="question_02">Que es el representante de Vanguardia para los Cazadores?</string>
+    <string name="question_03">Que es el representante de Vanguardia para los Warlocks?</string>
+    <string name="question_04">Que es el representante de Vanguardia para los Titans?</string>
+    <string name="question_05">Quién es el representante de Future War Cult?</string>
+    <string name="question_06">Quién es el representante de Dead Orbit?</string>
+    <string name="question_07">Quién es el representante de New Monarchy?</string>
+    <string name="question_08">Cuáles de los diez Señores de Hierro que conocemos todavía están vivos?</string>
+    <string name="question_09">Quién es el líder Fallen de la Casa de los Lobos que se nombró el Kell de Kells?</string>
+    <string name="question_10">Cuál es el nombre de tu Guardián?</string>
+    <string name="question_10_hint">Ingrese su nombre</string>
+    <string name="submit_prompt">Envíe sus respuestas</string>
+    <string name="question_01_hint">Ingrese su nombre</string>
+    <string name="complete_quiz_request">Un Guardián nunca sale de una tarea sin terminar!</string>
+    <string name="perfect_score">PERFECCION, %1$s! Te has convertido en leyenda!</string>
+    <string name="quiz_score">Tienes %1$d fuera de un posible %2$d correcto.</string>
+</resources>
