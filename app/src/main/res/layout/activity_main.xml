@@ -62,8 +62,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <!-- TODO: Figure out how to flow options to better fit available space -->
-
                 <RadioButton
                     android:id="@+id/answer02_radiobutton01"
                     style="@style/answerRadioButton"
@@ -108,8 +106,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-
-                <!-- TODO: Figure out how to flow options to better fit available space -->
 
                 <RadioButton
                     android:id="@+id/answer03_radiobutton01"
@@ -156,8 +152,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <!-- TODO: Figure out how to flow options to better fit available space -->
-
                 <RadioButton
                     android:id="@+id/answer04_radiobutton01"
                     style="@style/answerRadioButton"
@@ -202,8 +196,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-
-                <!-- TODO: Figure out how to flow options to better fit available space -->
 
                 <RadioButton
                     android:id="@+id/answer05_radiobutton01"
@@ -250,8 +242,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <!-- TODO: Figure out how to flow options to better fit available space -->
-
                 <RadioButton
                     android:id="@+id/answer06_radiobutton01"
                     style="@style/answerRadioButton"
@@ -296,8 +286,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-
-                <!-- TODO: Figure out how to flow options to better fit available space -->
 
                 <RadioButton
                     android:id="@+id/answer07_radiobutton01"
@@ -433,8 +421,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-
-                <!-- TODO: Figure out how to flow options to better fit available space -->
 
                 <RadioButton
                     android:id="@+id/answer09_radiobutton01"
