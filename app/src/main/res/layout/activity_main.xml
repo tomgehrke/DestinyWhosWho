@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/mainView"
+    tools:context="com.tomgehrke.destinywhoswho.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/instructions_textview"
+            style="@style/instructionsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions" />
+
+        <LinearLayout
+            android:id="@+id/question_layout_01"
+            style="@style/questionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question01_textview"
+                style="@style/questionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_01" />
+
+            <EditText
+                android:id="@+id/answer01_edittext"
+                style="@style/answerEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/question_01_hint"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question_layout_02"
+            style="@style/questionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question02_textview"
+                style="@style/questionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_02" />
+
+            <RadioGroup
+                android:id="@+id/answer02_radiogroup"
+                style="@style/answerRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- TODO: Figure out how to flow options to better fit available space -->
+
+                <RadioButton
+                    android:id="@+id/answer02_radiobutton01"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_03" />
+
+                <RadioButton
+                    android:id="@+id/answer02_radiobutton02"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_05" />
+
+                <RadioButton
+                    android:id="@+id/answer02_radiobutton03"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_02" />
+
+                <RadioButton
+                    android:id="@+id/answer02_radiobutton04"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_04" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question_layout_03"
+            style="@style/questionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question03_textview"
+                style="@style/questionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_03" />
+
+            <RadioGroup
+                android:id="@+id/answer03_radiogroup"
+                style="@style/answerRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- TODO: Figure out how to flow options to better fit available space -->
+
+                <RadioButton
+                    android:id="@+id/answer03_radiobutton01"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_03" />
+
+                <RadioButton
+                    android:id="@+id/answer03_radiobutton02"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_05" />
+
+                <RadioButton
+                    android:id="@+id/answer03_radiobutton03"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_02" />
+
+                <RadioButton
+                    android:id="@+id/answer03_radiobutton04"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_04" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question_layout_04"
+            style="@style/questionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question04_textview"
+                style="@style/questionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_04" />
+
+            <RadioGroup
+                android:id="@+id/answer04_radiogroup"
+                style="@style/answerRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- TODO: Figure out how to flow options to better fit available space -->
+
+                <RadioButton
+                    android:id="@+id/answer04_radiobutton01"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_03" />
+
+                <RadioButton
+                    android:id="@+id/answer04_radiobutton02"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_05" />
+
+                <RadioButton
+                    android:id="@+id/answer04_radiobutton03"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_02" />
+
+                <RadioButton
+                    android:id="@+id/answer04_radiobutton04"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_04" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question_layout_05"
+            style="@style/questionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question05_textview"
+                style="@style/questionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_05" />
+
+            <RadioGroup
+                android:id="@+id/answer05_radiogroup"
+                style="@style/answerRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- TODO: Figure out how to flow options to better fit available space -->
+
+                <RadioButton
+                    android:id="@+id/answer05_radiobutton01"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_07" />
+
+                <RadioButton
+                    android:id="@+id/answer05_radiobutton02"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_04" />
+
+                <RadioButton
+                    android:id="@+id/answer05_radiobutton03"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_05" />
+
+                <RadioButton
+                    android:id="@+id/answer05_radiobutton04"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_06" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question_layout_06"
+            style="@style/questionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question06_textview"
+                style="@style/questionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_06" />
+
+            <RadioGroup
+                android:id="@+id/answer06_radiogroup"
+                style="@style/answerRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- TODO: Figure out how to flow options to better fit available space -->
+
+                <RadioButton
+                    android:id="@+id/answer06_radiobutton01"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_07" />
+
+                <RadioButton
+                    android:id="@+id/answer06_radiobutton02"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_04" />
+
+                <RadioButton
+                    android:id="@+id/answer06_radiobutton03"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_05" />
+
+                <RadioButton
+                    android:id="@+id/answer06_radiobutton04"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_06" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question_layout_07"
+            style="@style/questionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question07_textview"
+                style="@style/questionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_07" />
+
+            <RadioGroup
+                android:id="@+id/answer07_radiogroup"
+                style="@style/answerRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- TODO: Figure out how to flow options to better fit available space -->
+
+                <RadioButton
+                    android:id="@+id/answer07_radiobutton01"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_07" />
+
+                <RadioButton
+                    android:id="@+id/answer07_radiobutton02"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_04" />
+
+                <RadioButton
+                    android:id="@+id/answer07_radiobutton03"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_05" />
+
+                <RadioButton
+                    android:id="@+id/answer07_radiobutton04"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_06" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question_layout_08"
+            style="@style/questionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question08_textview"
+                style="@style/questionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_08" />
+
+            <LinearLayout
+                android:id="@+id/answer08_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/answer08a_checkbox"
+                        style="@style/answerCheckBox"
+                        android:text="@string/option_08a" />
+
+                    <CheckBox
+                        android:id="@+id/answer08b_checkbox"
+                        style="@style/answerCheckBox"
+                        android:text="@string/option_08b" />
+
+                    <CheckBox
+                        android:id="@+id/answer08c_checkbox"
+                        style="@style/answerCheckBox"
+                        android:text="@string/option_08c" />
+
+                    <CheckBox
+                        android:id="@+id/answer08d_checkbox"
+                        style="@style/answerCheckBox"
+                        android:text="@string/option_08d" />
+
+                    <CheckBox
+                        android:id="@+id/answer08e_checkbox"
+                        style="@style/answerCheckBox"
+                        android:text="@string/option_08e" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/answer08f_checkbox"
+                        style="@style/answerCheckBox"
+                        android:text="@string/option_08f" />
+
+                    <CheckBox
+                        android:id="@+id/answer08g_checkbox"
+                        style="@style/answerCheckBox"
+                        android:text="@string/option_08g" />
+
+                    <CheckBox
+                        android:id="@+id/answer08h_checkbox"
+                        style="@style/answerCheckBox"
+                        android:text="@string/option_08h" />
+
+                    <CheckBox
+                        android:id="@+id/answer08i_checkbox"
+                        style="@style/answerCheckBox"
+                        android:text="@string/option_08i" />
+
+                    <CheckBox
+                        android:id="@+id/answer08j_checkbox"
+                        style="@style/answerCheckBox"
+                        android:text="@string/option_08j" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question_layout_09"
+            style="@style/questionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question09_textview"
+                style="@style/questionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_09" />
+
+            <RadioGroup
+                android:id="@+id/answer09_radiogroup"
+                style="@style/answerRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- TODO: Figure out how to flow options to better fit available space -->
+
+                <RadioButton
+                    android:id="@+id/answer09_radiobutton01"
+                    style="@style/answerRadioButton"
+                    android:text="@string/option_08i" />
+
+                <RadioButton
+                    android:id="@+id/answer09_radiobutton02"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_09" />
+
+                <RadioButton
+                    android:id="@+id/answer09_radiobutton03"
+                    style="@style/answerRadioButton"
+                    android:text="@string/option_08h" />
+
+                <RadioButton
+                    android:id="@+id/answer09_radiobutton04"
+                    style="@style/answerRadioButton"
+                    android:text="@string/answer_04" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question_layout_10"
+            style="@style/questionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question10_textview"
+                style="@style/questionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_10" />
+
+            <EditText
+                android:id="@+id/answer10_edittext"
+                style="@style/answerEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/question_10_hint"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <Button
+            style="@style/submitButton"
+            android:onClick="submitAnswers"
+            android:text="@string/submit_prompt" />
+
+    </LinearLayout>
+
+</ScrollView>

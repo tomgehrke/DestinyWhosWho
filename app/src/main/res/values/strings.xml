@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Destiny Who\'s Who</string>
+    <string name="instructions">Answer the following questions to see how well you know some of Destiny\'s major characters.\n\nEyes up, Guardian!</string>
+    <string name="question_01">Who is queen of the Awoken?</string>
+    <string name="question_01_hint">Enter name</string>
+    <string name="answer_01" translatable="false">Mara Sov</string>
+    <string name="question_02">Who is the Vanguard representative for Hunters?</string>
+    <string name="answer_02" translatable="false">Cayde-6</string>
+    <string name="question_03">Who is the Vanguard representative for Warlocks?</string>
+    <string name="answer_03" translatable="false">Ikora Rey</string>
+    <string name="question_04">Who is the Vanguard representative for Titans?</string>
+    <string name="answer_04" translatable="false">Zavala</string>
+    <string name="question_05">Who is the Future War Cult representative?</string>
+    <string name="answer_05" translatable="false">Lakshmi-2</string>
+    <string name="question_06">Who is the Dead Orbit representative?</string>
+    <string name="answer_06" translatable="false">Arach Jalaal</string>
+    <string name="question_07">Who is the New Monarchy representative?</string>
+    <string name="answer_07" translatable="false">Executor Hideo</string>
+    <string name="question_08">Which of the ten Iron Lords that we know about are still alive?</string>
+    <string name="option_08a" translatable="false">Efrideet</string>
+    <string name="option_08b" translatable="false">Felwinter</string>
+    <string name="option_08c" translatable="false">Gheleon</string>
+    <string name="option_08d" translatable="false">Jolder</string>
+    <string name="option_08e" translatable="false">Perun</string>
+    <string name="option_08f" translatable="false">Radegast</string>
+    <string name="option_08g" translatable="false">Saladin</string>
+    <string name="option_08h" translatable="false">Silimar</string>
+    <string name="option_08i" translatable="false">Skorri</string>
+    <string name="option_08j" translatable="false">Timur</string>
+    <string name="answer_08" translatable="false">Efrideet,Saladin</string>
+    <string name="question_09">Who is the Fallen leader of the House of Wolves who named himself the Kell of Kells?</string>
+    <string name="answer_09" translatable="false">Skolas</string>
+    <string name="question_10">What is your Guardian\'s name?</string>
+    <string name="question_10_hint">Enter name</string>
+    <string name="submit_prompt">Submit your answers</string>
+</resources>
